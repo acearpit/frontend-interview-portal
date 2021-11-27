@@ -2,8 +2,6 @@ import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import HomePage from "./Components/Homepage";
 import ScheduleInterview from "./Components/ScheduleInterview";
-import "rsuite/styles/index.less";
-import "rsuite/dist/rsuite.min.css";
 
 function App() {
   return (
