@@ -1,0 +1,116 @@
+.scheduleInterview {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 10px;
+}
+
+.timeSelect {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 30px auto;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.timeSelect .time {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.time > input {
+  width: 95%;
+}
+
+.included_participants {
+  margin-bottom: 30px;
+}
+
+.no_participants {
+  width: 90%;
+  margin: 0 auto;
+  background-color: wheat;
+  min-height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.participants_table {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  min-height: 40px;
+  background-color: black;
+  color: white;
+  align-items: center;
+}
+
+.data {
+  width: 100%;
+  display: flex;
+  /* min-height: 40px; */
+  background-color: aliceblue;
+  color: black;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding: 5px 0px;
+}
+
+.p_id,
+.p_name,
+.p_email,
+.p_remove {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.p_id {
+  width: 10%;
+}
+
+.p_name,
+.p_email {
+  width: 35%;
+}
+
+.p_remove {
+  width: 20%;
+}
+
+.p_remove > svg {
+  height: 30px;
+  width: 30px;
+  color: red;
+  cursor: pointer;
+}
+
+.schedule_interview_now {
+  width: 90%;
+  margin: 0 auto;
+  height: 50px;
+  padding: 10px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  background-color: green;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: x-large;
+}

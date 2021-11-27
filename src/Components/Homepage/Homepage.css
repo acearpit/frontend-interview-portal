@@ -1,0 +1,41 @@
+.homepage__container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.homepage__container > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.new_interview {
+  height: 40px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-size: large;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.new_interview > svg {
+  flex: none;
+  height: 30px;
+  width: 30px;
+}
+
+.scheduled__interviews {
+  text-align: left;
+  font-size: 2rem;
+  font-weight: 600;
+  color: darkblue;
+  margin: 30px 0px;
+}
